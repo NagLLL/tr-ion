@@ -1,17 +1,17 @@
-resource "aws_instance" "web1" {
+resource "aws_instance" "web5" {
   ami           = var.ami
   instance_type = var.instance_type
 
   tags = {
-    Name = "ion-instance1"
+    Name = "ion-instance5"
   }
 }
 
-resource "aws_instance" "web2" {
+resource "aws_instance" "web6" {
   ami           = var.ami
   instance_type = var.instance_type
 
   tags = {
-    Name = "ion-instance2"
+    Name = "ion-instance6"
   }
 }
